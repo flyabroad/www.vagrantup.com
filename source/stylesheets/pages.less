@@ -264,33 +264,37 @@
         }
 
         .hero {
-            .padded;
-            background: @gray-background url(/images/vagrant_header_background.png) no-repeat center -80px;
+            background: @gray-background url(/images/vagrant_vmware_background.png) no-repeat center 0px;
             text-align: center;
             border-bottom: 1px solid #c6e0f0;
+            height: 760px;
 
             .hero-content {
                 top: 50%;
 
                 hgroup {
-                    margin: (@baseline * 4) 0 20px 0;
-                    text-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+                    margin: 400px 0 20px 0;
 
                     h1 {
-                        color: @purple-text;
-                        margin-bottom: (@baseline * 4);
-                        font-size: 60px;
-                        line-height: 60px;
+                        color: #FFFFFF;
+                        font-weight: normal;
+                        margin-bottom: 10px;
+                        font-size: 50px;
+                        line-height: 50px;
                     }
 
                     h2 {
                         .museo-sans-light;
                         color: @blue-text;
-                        font-size: 30px;
-                        line-height: 40px;
+                        font-size: 22px;
+                        line-height: 15px;
                     }
 
                 } //hero hgroup
+
+                #buy-now.button {
+                    background-color: #F26C4F;
+                }
 
             } //hero-content
 
