@@ -21,6 +21,9 @@ $(document).ready(function() {
         if (isNaN(seats)) {
             alert("The number of seats you want to purchase must be a number.");
             return;
+        } else if (seats <= 0) {
+            alert("The number of seats you want must be greater than zero.");
+            return;
         }
 
         window.location = "http://shopify.hashicorp.com/cart/279661674:" + seats;
